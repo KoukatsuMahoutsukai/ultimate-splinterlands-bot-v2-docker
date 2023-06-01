@@ -6,6 +6,8 @@ image on dockerhub https://hub.docker.com/r/koukatsumahoutsukai/ultimate-splinte
 made the container to run on a vps, sharing for others if they want to use.
 
 ## Instructions
+
+
 `docker container run -it -d koukatsumahoutsukai/ultimate-splinterlands-bot-v2`
 
 -detached so that container keeps on running
@@ -37,6 +39,8 @@ then
 
 -to exit the bash and continue the to the app, the splinterlands bot would automatically start after exiting bash
 
+
+
 `ctrl+p + ctrl+q`
 
 -to detach from the container and let it run on the background
@@ -44,3 +48,9 @@ then
 `docker container attach "CONTAINER NAME"`
 
 -to attach again to the running container and check hows the bot running
+
+
+
+https://github.com/KoukatsuMahoutsukai/ultimate-splinterlands-bot-v2-docker/assets/123940777/d34af5c3-62fe-45dc-bd3c-f1ce46bc64e5
+
+

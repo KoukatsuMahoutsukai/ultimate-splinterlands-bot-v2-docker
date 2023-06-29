@@ -10,7 +10,7 @@ Theres a vid walkthrough below.
 
 <br>
 
-`docker container run -it -d koukatsumahoutsukai/ultimate-splinterlands-bot-v2`
+`docker container run -d koukatsumahoutsukai/ultimate-splinterlands-bot-v2`
 
 -detached so that container keeps on running
 

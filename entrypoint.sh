@@ -1,10 +1,12 @@
+#!/bin/sh
+
 MARKER_FILE="/opt/SPLbot/.extracted"
 
 # Check if the files are already extracted
 if [ ! -f "$MARKER_FILE" ]; then
     # Extract the ZIP file
     cd /opt/SPLbot
-    unzip linux-x64.zip
+    unzip -d . linux-x64.zip
     rm linux-x64.zip
     cd linux-x64
     chmod +x ./Ultimate\ Splinterlands\ Bot\ V2
@@ -20,4 +22,3 @@ fi
 cd /opt/SPLbot/linux-x64
 chmod +x ./Ultimate\ Splinterlands\ Bot\ V2
 exec "$@"
-
